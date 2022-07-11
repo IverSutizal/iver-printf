@@ -31,7 +31,7 @@ int print_string(va_list argss)
 	int i = 0;
 
 	s = va_arg(argss, char*);
-	
+
 	if (s == NULL)
 	{
 		s = "(null)";
