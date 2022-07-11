@@ -15,6 +15,8 @@ int _printf(const char *format, ...)
 	char input[3];
 	package operation;
 
+	if (format == NULL || !format[i + 1])
+		return (-1);
 	va_start(args, format); /* Initialize _printf arguments's of format \
 */
 	while (format[i] != '\0')
@@ -34,8 +36,8 @@ int _printf(const char *format, ...)
 			else
 			{
 				_putchar(format[i]);
-                                i++;
-                                len++;
+				i++;
+				len++;
 			}
 		}
 		else
