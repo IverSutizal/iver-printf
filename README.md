@@ -1,6 +1,5 @@
 # How to create a printf?
-<h1 align ="center">
-<img src="https://raw.githubusercontent.com/IverSutizal/Recursos-de-imagenes/main/Presentaci%C3%B3n%20diapositiva%20Marca%20creativa%20Doodle%20Blanco%20y%20marr%C3%B3n.png" height="90%" width="70%"></h1>
+<h1 align ="center"> <img src="https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38" height="40%" width="30%"> <img src="https://raw.githubusercontent.com/IverSutizal/Recursos-de-imagenes/main/Presentaci%C3%B3n%20diapositiva%20Marca%20creativa%20Doodle%20Blanco%20y%20marr%C3%B3n.png" height="90%" width="70%"></h1>
 
 ## Description
 
@@ -37,9 +36,8 @@ Format generators are a format with which we tell the function to take the argum
 - **%R** : Use ROT13 to converts the letters with the thirteenth letter forward of the alphabet.
 - **%b** : The specifier %b doesn't work all correctly
 ## Principal function
-|**Functions**|printf|
+|**Functions** <a href="https://www.youtube.com/watch?v=NyP98HXK6A4" target="_blank"><img height="32" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png" target="_blank"> </a>|printf |
 |--|--|
-
 
 ## Functions used
 |**Functions**|printf|
@@ -92,7 +90,7 @@ Format generators are a format with which we tell the function to take the argum
 
 
 ## Demonstration of the use of printf
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP98HXK6A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP98HXK6A4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References when creating a printf
 1. https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html
