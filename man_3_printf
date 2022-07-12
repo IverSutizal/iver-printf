@@ -1,0 +1,157 @@
+.\" Manpage _printf
+.TH _PRINTF  2022-07-11 1.0 "Holberton School Perú" "_prinf's Manual"
+.SH NAME
+_printf \- formatted output conversion
+.SH SYNOPSIS
+.nf
+.B #include <stdio.h>
+.B #include <stdarg.h>
+.PP
+.BI "int _printf(const char *format, ...);"
+.BI "package choose_func(char *input);"
+.BI "int _putchar(char c);"
+.BI "char *convert(unsigned int num, int base);"
+
+.BI "int print_caracter(va_list argss);"
+.BI "int print_string(va_list argss);"
+.BI "int print_sigPorcent(va_list argss);"
+.BI "int print_numDec_Int(va_list argss);"
+.BI "int print_numInt(va_list argss);"
+.fi
+.PP
+.in -4n
+Feature Struct_Specifier
+.in
+.PP
+.ad l
+.BR typedef struct spec_struc
+.BR {
+.RS 4
+int (*function)(va_list);
+.TP 4
+char *specifier;
+.TP 4
+} package;
+.RE
+.ad
+.PD
+.SH DESCRIPTION
+The functions in the
+.BR _printf ()
+produce output according to a format.
+the function _printf converts the character
+strings that receives as argument and prints
+it on the standard output.
+.PP
+
+.SH RETURN VALUE
+Returns the number of all the characters printed,
+excluding the NULL byte used to end output to strings.
+
+.SH Format String Format
+The format string is a character string,
+which contains two types of directives:
+ordinary characters which are coppied to
+the output stream; and conversion specifiers.
+Each conversion specification is introduced
+by the character %, and ends with a conversion specifier.
+
+.PP
+This are the characters that specifies the
+type of conversion to be applied.
+The conversion specifiers and their meanings are:
+
+.PP
+.SS Conversion specifiers
+
+A character that specifies the type of conversion to be applied.
+The conversion specifiers and their meanings are:
+.TP
+.BR d ", " i
+The
+.I int
+argument is converted to signed decimal notation.
+.TP
+.B c
+argument is converted to an unsigned char,
+and the resulting character is written.
+.B l
+.TP
+.B s
+If no
+.B l
+modifier is present: the
+The char argument is a pointer to an array of
+characters, that converts the corresponding argument to a character string.
+
+.TP
+.B %
+A \(aq%\(aq is written.
+No argument is converted.
+The complete conversion
+specification is \(aq%%\(aq.
+
+.PP
+.SS Future Features
+.PP
+
+.TP
+.B %S
+Prints a string of characters and the number
+in hexadecimal of a special character that is
+written like this '\x' according to the ASCII table.
+
+.TP
+.B %u
+Prints an unsigned decimal number.
+
+.TP
+.B %o
+Prints the octal unsigned integer conversion.
+
+.TP
+.B %x
+Unsigned hex conversion to lowercase.
+
+.TP
+.B %X
+Unsigned hex conversion to uppercase.
+
+.TP
+.B %p
+Print a memory address(pointer).
+
+.SH NOTES
+The \fB_printf()\fR is a project collaboration between
+\fBIver Sutizal\fR and \fBDaisy Chipana\fR,
+actual students of Software Engineering at \fBHolberton School\fR.
+.\" .PP
+
+.SH EXAMPLE
+.PP
+.in +4n
+.EX
+#include <main.h>
+#include <stdio.h>
+
+int main(void)
+
+{
+	_printf("Character:[%c]\n", 'H');
+
+	_printf("Let's try to printf a simple sentence.\n");
+
+	_printf("hello %%%world\n", "world", 1, 2, 3, 4);
+
+	_printf("Negative:[%d]\n", -762534);
+}
+
+.SH SEE ALSO
+.BR printf (3),
+
+This page is part of release 1.0
+.I man-pages
+project _printf.
+.SH AUTHORS
+
+Written  by Iver Sutizal Huaromo and Daisy Geraldine Chipana Lapa
