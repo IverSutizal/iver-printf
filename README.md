@@ -90,8 +90,8 @@ Format generators are a format with which we tell the function to take the argum
 
 
 ## Demonstration of the use of printf
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP98HXK6A4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Give it a click <a href="https://www.youtube.com/watch?v=NyP98HXK6A4" target="_blank"><img height="32" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png" target="_blank"> </a>       
+[![Alt text](https://img.youtube.com/vi/NyP98HXK6A4/0.jpg)](https://www.youtube.com/watch?v=NyP98HXK6A4)
 ## References when creating a printf
 1. https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html
 2. http://www.firmcodes.com/write-printf-function-c/
