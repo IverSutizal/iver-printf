@@ -1,5 +1,5 @@
 # How to create a printf?
-<h1 align ="center"> <img src="https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38" height="40%" width="30%"> <img src="https://raw.githubusercontent.com/IverSutizal/Recursos-de-imagenes/main/Presentaci%C3%B3n%20diapositiva%20Marca%20creativa%20Doodle%20Blanco%20y%20marr%C3%B3n.png" height="90%" width="70%"></h1>
+src="https://raw.githubusercontent.com/IverSutizal/Recursos-de-imagenes/main/Presentaci%C3%B3n%20diapositiva%20Marca%20creativa%20Doodle%20Blanco%20y%20marr%C3%B3n.png" height="90%" width="70%"></h1>
 
 ## Description
 
